@@ -14,19 +14,20 @@ int ArmStrongNumber(int n){
         n = n /10;
     }
 
-    temp = n ;
-    while(temp > 0){
+    temp = n;
+    while(n > 0){
         int ld = n % 10;
         int power = 1;
 
-        
-        for(int i=0;i<count; i++){
+        for(int i = 0; i < count; i++){
             power = power * ld;
         }
 
         sum = sum + power;
         temp = temp / 10;
     }
+
+    
     
 
 }

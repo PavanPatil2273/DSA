@@ -2,7 +2,7 @@
 using namespace std;
 
 bool IsPalindrome(int n){
-    int rev; 0;
+    int rev = 0;
     int original = n;
 
     while(n > 0){
